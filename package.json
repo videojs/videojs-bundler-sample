@@ -1,0 +1,27 @@
+{
+  "name": "videojs-bundler-sample",
+  "version": "1.0.0",
+  "description": "A sample for using and testing bundlers with Video.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/videojs/videojs-bundler-sample.git"
+  },
+  "keywords": [
+    "Video.js",
+    "videojs",
+    "video",
+    "webpack",
+    "browserify",
+    "rollup"
+  ],
+  "bugs": {
+    "url": "https://github.com/videojs/videojs-bundler-sample/issues"
+  },
+  "homepage": "https://github.com/videojs/videojs-bundler-sample#readme"
+}

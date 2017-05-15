@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "browserify-es5": "browserify src-es5/index.js > dist/browserify-es5.js",
-    "webpack-es5": "webpack src-es5/index.js dist/webpack-es5.js"
+    "webpack-es5": "webpack src-es5/index.js dist/webpack-es5.js",
+    "browserify-es6": "browserify -t [ babelify ] src-es6/index.js > dist/browserify-es6.js",
+    "webpack-es6": "webpack --config src-es6/webpack.config.js"
   },
   "author": "",
   "license": "Apache-2.0",
@@ -26,6 +28,10 @@
   },
   "homepage": "https://github.com/videojs/videojs-bundler-sample#readme",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babelify": "^7.3.0",
     "browserify": "^14.3.0",
     "rollup": "^0.41.6",
     "video.js": "^5.19.2",

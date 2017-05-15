@@ -1,5 +1,7 @@
 # Video.js bundler sample
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/videojs/videojs-bundler-sample.svg)](https://greenkeeper.io/)
+
 This is a sample and test project for using Video.js with various bundler configurations.
 
 It has:

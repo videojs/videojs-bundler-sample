@@ -4,7 +4,8 @@
   "description": "A sample for using and testing bundlers with Video.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browserify-es5": "browserify src-es5/index.js > dist/browserify-es5.js",
+    "webpack-es5": "webpack src-es5/index.js dist/webpack-es5.js"
   },
   "author": "",
   "license": "Apache-2.0",

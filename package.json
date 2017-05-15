@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/videojs/videojs-bundler-sample/issues"
   },
-  "homepage": "https://github.com/videojs/videojs-bundler-sample#readme"
+  "homepage": "https://github.com/videojs/videojs-bundler-sample#readme",
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "rollup": "^0.41.6",
+    "video.js": "^5.19.2",
+    "webpack": "^2.5.1"
+  }
 }

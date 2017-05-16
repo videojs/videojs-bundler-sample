@@ -11,3 +11,12 @@ It has:
   * webpack
   * browserify
   * rollup
+
+## Usage
+
+Clone this repo and then run
+```sh
+$ npm start
+```
+
+This will build out the 5 examples.

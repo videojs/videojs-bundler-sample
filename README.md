@@ -20,3 +20,10 @@ $ npm start
 ```
 
 This will build out the 5 examples.
+
+## Inspired by
+
+This project was inspired by:
+
+* [rollup-comparison](https://github.com/nolanlawson/rollup-comparison)
+* [webpack-vs-browserify](https://github.com/olegakbarov/webpack-vs-browserify)

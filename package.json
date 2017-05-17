@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "browserify-es5": "browserify src-es5/index.js > dist/browserify-es5.js",
-    "webpack-es5": "webpack src-es5/index.js dist/webpack-es5.js",
+    "webpack-es5": "webpack --config src-es5/webpack.config.js",
     "browserify-es6": "browserify -t [ babelify ] src-es6/index.js > dist/browserify-es6.js",
     "webpack-es6": "webpack --config src-es6/webpack.config.js",
     "rollup-es6": "rollup -c src-es6/rollup.js",

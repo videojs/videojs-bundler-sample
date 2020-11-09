@@ -10,7 +10,7 @@
     "browserify-es6": "browserify -t [ babelify --presets [ @babel/preset-env ]] src-es6/index.js > dist/browserify-es6.js",
     "webpack-es6": "webpack --config src-es6/webpack.config.js",
     "rollup-es6": "rollup -c src-es6/rollup.js",
-    "start": "npm-run-all -s clean -p browserify-es5 webpack-es5 browserify-es6 webpack-es6 rollup-es6",
+    "start": "npm-run-all -s clean -p browserify-es5 webpack-es5 rollup-es5 browserify-es6 webpack-es6 rollup-es6",
     "clean": "rimraf ./dist && mkdirp dist/"
   },
   "author": "",

@@ -1,3 +1,3 @@
-var videojs = require('video.js');
+var videojs = require('video.js/core.js');
 
 window.player = videojs('vid');
